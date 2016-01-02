@@ -20,13 +20,11 @@
 
     (cond
       (:help options)
-      (println (str "Usage:\nfind-images [options] keyword\n\nvoptions:\n" summary))
+      (println (str "Usage:\nfind-keywords [options] keyword\n\nvoptions:\n" summary))
 
       (:count options)
-      (count kw)
+      (println (count kw))
 
       :else
       (doall
-       (map
-        println
-        kw)))))
+       (map println kw)))))

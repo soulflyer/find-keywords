@@ -1,36 +1,23 @@
 # find-keywords
 
-FIXME: description
+a command line utility to return a list of keywords extracted from a tree of keywords. 
 
 ## Installation
 
-Download from http://example.com/FIXME.
+    lein bin
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar find-keywords-0.1.0-standalone.jar [args]
+    find-keywords keyword
+    
+returns all the sub-keywords below the keyword node
 
 ## Options
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    find-keywords -h
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright Iain wood © 2016
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0
