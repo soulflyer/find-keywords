@@ -10,6 +10,7 @@
                  [image-lib "0.1.0-SNAPSHOT"]]
   :main ^:skip-aot find-keywords.core
 ;;  :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}}
+  :profiles {:uberjar {:aot :all}
+             :dev {:dependencies [[expectations "2.0.9"]]}}
   :bin {:name "find-keywords"
         :bin-path "~/bin"})

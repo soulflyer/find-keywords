@@ -1,7 +1,6 @@
 (ns find-keywords.core-test
-  (:require [clojure.test :refer :all]
-            [find-keywords.core :refer :all]))
+  (:require
+            [find-keywords.core :refer :all])
+  (:use expectations))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(expect (= 1 1))

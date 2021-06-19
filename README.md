@@ -15,6 +15,9 @@ returns all the sub-keywords below the keyword node
 ## Options
 
     find-keywords -h
+    
+## Bugs
+Doesn't like it if a keyword has a large number of children...
 
 ## License
 
